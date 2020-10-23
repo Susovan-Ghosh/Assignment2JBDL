@@ -1,2 +1,2 @@
-	The multi-threaded POST API took nearly 1 milli-second for posting two documents wheras, the normal one having saveAll() finction took nearly 650 milli-seconds so, the multi-threaded one worked quite faster!!
+	The multi-threaded POST API took nearly 1 milli-second for posting two documents whereas, the normal one having saveAll() finction took nearly 650 milli-seconds so, the multi-threaded one worked quite faster!!
 	Reason behind multi-threaded one working faster is parallel execution of work over serial execution. Whenever there's no serialization required or no co-relation between subtasks, we should go for multi-threaded aaproach as it will work way faster than normal one. 
